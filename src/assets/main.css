@@ -1,0 +1,65 @@
+.router-link-active, .router-link-exact-active  {
+    font-weight: bold;
+    background-color: hsl(0, 0%, 96%);
+}
+.cs-addon-input {
+    font-size: 18px;
+}
+.emi-border {
+    border-bottom: 1px solid #dbdbdb;
+}
+.emi-black-border, .has-background-grey-dark th, .has-background-grey-dark td{
+  border-bottom: 1px solid #242424 !important
+}
+
+.slide-fade-enter-active {
+  transition: all 0.25s ease-out;
+}
+  
+.slide-fade-leave-active {
+  transition: all 0.25s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+.is-size-8 {
+  font-size: 8px !important;
+}
+
+.container {
+  width: inherit !important;
+}
+.has-background-grey-dark.is-hoverable tbody tr:not(.is-selected):hover {
+  background-color: #7a7a7a !important;
+}
+.has-background-grey-darker label {
+  color: whitesmoke ;
+}
+.has-background-grey-darker input {
+  background-color: #7a7a7a ;
+  color: white ;
+  border: 1px solid #363636 ;
+}
+.has-background-grey-darker .field .button {
+  background-color: #7a7a7a ;
+  color: white !important;
+  border: 1px solid #363636 ;
+}
+.totalRow.has-background-black-ter {
+  border-bottom:  1px solid #3f3f3f !important
+}
+.has-background-grey-darker .columns {
+  border: none;
+}
+.navbar, .navbar-brand {
+  min-height: 2.25rem;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+}
